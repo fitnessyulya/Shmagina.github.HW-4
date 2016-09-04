@@ -1,0 +1,20 @@
+body {
+    background: url(../img/background.jpg) repeat-x;
+}
+    .wrapper{
+        display: inline-block;
+        font-family: Tahoma, sans-serif;
+        font-size: 12px;
+        margin: 0 auto;
+        width: 1000px;
+    }
+        .coin{
+
+            display: inline-block;
+            width: 1000px;
+            height: 100%;
+
+        }
+            header{
+            height: 164px;
+        }
