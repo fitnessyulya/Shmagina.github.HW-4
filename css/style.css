@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 1280px;
 }
     .wrapper{
         display: inline-flex;
@@ -18,34 +19,36 @@ body {
         header{
             display: flex;
             justify-content: space-between;
-            height: 164px;
+            height: 175px;
         }
                 .head_left{
+                    display: block;
+                    margin-left: 26px;
 
                 }
                 .icon{
+                    margin-right: 33px;
+                    width: 326px;
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-between;
 
                 }
                  ul{
                      list-style: none;
                  }
-                    .contacts{
 
-                    }
                     .contries{
                         display: inline-flex;
                         flex-direction: row;
                         flex-wrap: nowrap;
+                        justify-content: space-between;
                     }
-                        .country{
+                    .country a{
+                        display: block;
+                        text-align: center;
+                    }
 
-                        }
-            main{
-
-            }
-                section{
-
-                }
                 .nav {
                     position: relative;
                     height: 30px;
@@ -94,7 +97,7 @@ body {
                     .nav li:nth-child(7) {
                         padding: 0 50px 0 10px;
                     }
-.menu{
+                .menu{
                     display: inline-flex;
                     -webkit-flex-flow: row nowrap;
                 }
