@@ -97,7 +97,7 @@ article > img {
     padding: 0;
 }
 
-.nav > a {
+.nav > ul > a {
     color: white;
     text-decoration: none;
     font-size: 14px;
@@ -145,12 +145,15 @@ article > img {
 
 .content p {
     font-size: 14px;
-    text-indent: 1em;
-
+    display: inline-block;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
 }
-h2 {
-    display: block;
 
+h2 {
+    text-align: center;
+    margin: 12px 0 10px 0;
 }
 
 footer {
