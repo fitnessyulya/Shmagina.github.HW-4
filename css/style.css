@@ -2,20 +2,12 @@ body {
     background: url(../img/background.jpg) repeat-x;
     font-family: Tahoma, sans-serif;
     font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 1280px;
-    margin: 0;
-    padding: 0;
 }
 
 .wrapper {
-    display: inline-flex;
-    flex-direction: column;
     font-size: 12px;
-    margin: 0 auto;
     width: 1000px;
+    margin: 0 auto;
     background: #fff;
     -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .6);
     box-shadow: 0 0 15px rgba(0, 0, 0, .6);
@@ -51,7 +43,7 @@ header {
 }
 
 .contacts {
-    margin: 11px 0 21px 0;
+    margin: 11px 0 34px 0;
 }
 
 .contacts li{
@@ -63,10 +55,9 @@ ul {
 }
 
 .contries {
-    display: inline-flex;
-    width: 330px;
+    display: flex;
     justify-content: space-between;
-    padding-left: 0;
+    width: 320px;
 }
 
 .country a {
@@ -74,52 +65,51 @@ ul {
     text-align: center;
     width: auto;
 }
-
-.country p{
-    margin: 0;
+.contry {
+    padding: 0 5px;
 }
 
 article > img {
+    display: block;
     border-bottom: 1px solid #128aa7;
 }
 
 .nav > ul {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     height: 28px;
     list-style: none;
     align-items: center;
-    margin: 0;
     border-top: 1px solid #cacbcb;
     border-bottom: 1px solid #303030;
     background-color: #343434;
     padding: 0;
+    box-shadow: 0 1px 4px #000000;
+    margin-bottom: 2px;
 }
 
-.nav > ul > a {
+.nav a {
     color: white;
     text-decoration: none;
     font-size: 14px;
     line-height: 30px;
 }
 
-.nav ul li {
+.nav li {
     position: relative;
+    padding-right: 30px;
 }
 
 .sub-nav {
     display: none;
     position: absolute;
+    top: 29px;
+    left: -10px;
     background: #303030;
-    width: 160px;
+    box-shadow: 4px 4px 4px -2px rgba(85,85,85,0.63);
 }
 
-.sub-nav:nth-child(2) {
-    width: 130px;
-}
-
-.sub-nav > a {
+.sub-nav a {
     text-decoration: none;
     color: white;
     padding-left: 10px;
@@ -153,7 +143,8 @@ article > img {
 
 h2 {
     text-align: center;
-    margin: 12px 0 10px 0;
+    margin: 7px 0 5px 0;
+    font-size: 14px;
 }
 
 footer {
